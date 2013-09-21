@@ -1,0 +1,15 @@
+$pagewidth: 920px;
+
+body{
+	font-family: Helvetica, Arial, Verdana;
+	margin:0;
+	padding:0;
+	min-height: 100%;
+	width: 100%;
+}
+.page{
+	width:$pagewidth;
+	position: relative;
+	left: 50%;
+	margin-left:-$pagewidth/2;
+}

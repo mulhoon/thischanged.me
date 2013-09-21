@@ -1,0 +1,25 @@
+{
+  "name": "new-project",
+  "version": "0.0.1",
+  "description": "New Project",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-compass": "latest",
+    "grunt-notify": "~0.2.13"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Nic Mulvaney",
+  "bugs": {
+    "url": ""
+  }
+}
