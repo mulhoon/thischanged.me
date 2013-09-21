@@ -1,7 +1,7 @@
-Nic's Basic HTML5 Build
+HeadStart
 ========
 
-This template is my preferred boilerplate to start a simple web/mobile project. It may not be to everyone's taste, I like to keep things simple.
+HeadStart is a simple web/mobile project template. It may not be to everyone's taste, I like to keep things simple.
 
 #### Project features
 
@@ -33,9 +33,9 @@ Installation
 
 	`$ cd path/to/my/project`
 
-2. Clone [this project](https://github.com/mulhoon/Starter-HTML5-Template.git) into it
+2. Clone [this project](https://github.com/mulhoon/HeadStart.git) into it
 
-	`$ git clone https://github.com/mulhoon/Starter-HTML5-Template.git`
+	`$ git clone https://github.com/mulhoon/HeadStart.git`
 
 3. Install grunt (if you don't already have it)
 
