@@ -1,17 +1,24 @@
 /*
 *	
-*	---
-*	Written by Nic Mulvaney
+*	Script written by Nic Mulvaney
 *
 */
-
 
 // Setup App namespace
 var App = App || {};
 
+// Load scripts
+/* ------------------------------------------------------------ */
+var scripts = [
+	"//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
+	"js/vendor/transparency.min.js"
+];
+
+
 // Globals
+/* ------------------------------------------------------------ */
+
 var mobile,
-	ua = navigator.userAgent,
 	event_down, 
 	event_move, 
 	event_release, 
@@ -19,17 +26,4 @@ var mobile,
 	transition = "transitionend webkitTransitionEnd",
 	animation = "animationend webkitAnimationEnd";
 
-// CHECK BROWSER
-/* ------------------------------------------------------------ */
-
-if( ua.match(/iPhone/i) || ua.match(/iPad/i) || ua.match(/Android/i) ){
-	event_down =  "touchstart";
-    event_move = "touchmove";
-    event_release =  "touchend";
-    mobile = true;
-}else{
-    event_down = "mousedown";
-    event_move = "mousemove";
-    event_release =  "mouseup";
-}
 

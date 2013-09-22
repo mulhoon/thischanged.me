@@ -1,16 +1,21 @@
 // GENERIC TOOLS
 /* ------------------------------------------------------------ */
 
-
-// LOAD ALL SCRIPTS AND INITIATE THE APP
-/* ------------------------------------------------------------ */
-
-
-head.js(
-	"//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
-	"js/vendor/transparency.min.js"
-).ready(App.view.init);
-
+// Load scripts and initiate the app
+head.js.apply(window, scripts).ready(App.view.init);
 
 // Disable Console if not available;
 window.console = window.console || { log: function (d) {} };
+
+
+// Check if mobile device
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	event_down =  "touchstart";
+    event_move = "touchmove";
+    event_release =  "touchend";
+    mobile = true;
+}else{
+    event_down = "mousedown";
+    event_move = "mousemove";
+    event_release =  "mouseup";
+}

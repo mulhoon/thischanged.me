@@ -1,7 +1,7 @@
 App.view = (function () {
 
 	var init = function(){
-		console.log("App ready");
+		console.log("All ready!");
 	};
 
 	return {

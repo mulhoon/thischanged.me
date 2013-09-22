@@ -1,5 +1,3 @@
-$pagewidth: 920px;
-
 body{
 	font-family: Helvetica, Arial, Verdana;
 	margin:0;
@@ -8,8 +6,7 @@ body{
 	width: 100%;
 }
 .page{
-	width:$pagewidth;
-	position: relative;
-	left: 50%;
-	margin-left:-$pagewidth/2;
+	margin: 0 auto;
+	overflow: hidden;
+	max-width: 920px;
 }

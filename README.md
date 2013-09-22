@@ -1,13 +1,14 @@
 HeadStart
 ========
 
-HeadStart is a simple web/mobile project template. It may not be to everyone's taste, I like to keep things simple.
+HeadStart is a simple web/mobile project template. I like to keep things simple.
 
 #### Project features
 
 - Compiled using [Grunt](http://gruntjs.com/)
 - Perfectly organised Javascript, automatically minimized and concatenated
 - [Sass](http://sass-lang.com/) compiled using [Compass](http://compass-style.org/)
+- Grid layouts available with Compass [Blueprint](http://compass-style.org/reference/blueprint/)
 - Automatic notifications when Grunt tasks fail.
 - [LiveReload](http://livereload.com/) of the browser when compiled ([Get the chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en))
 
@@ -21,7 +22,6 @@ HeadStart is a simple web/mobile project template. It may not be to everyone's t
 
 #### What it doesn't have
 
-- A grid layout framework e.g. Bootstrap
 - A precompiling template engine e.g. handlebars, mustache
 - JS or HTML shorthand e.g. Jade, Coffeescript
 

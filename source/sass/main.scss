@@ -1,4 +1,7 @@
+$mobile: "screen and (max-width: 480px)";
+$tablet: "screen and (max-width: 768px)";
 
+@import "compass/css3";
 @import "mixins/fonts";
 @import "view";
 

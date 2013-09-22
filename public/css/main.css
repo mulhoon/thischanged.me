@@ -1,1 +1,13 @@
-@font-face {}@font-face {}body{font-family:Helvetica, Arial, Verdana;margin:0;padding:0;min-height:100%;width:100%}.page{width:920px;position:relative;left:50%;margin-left:-460px}
+@font-face {}
+@font-face {}
+body {
+  font-family: Helvetica, Arial, Verdana;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%; }
+
+.page {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 920px; }

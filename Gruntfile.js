@@ -34,7 +34,8 @@ module.exports = function(grunt) {
 			    sassDir: SOURCES_SASS,
 			    cssDir: COMPILED_SASS,
 			    environment: 'production',
-			    specify: [SOURCES_SASS+'main.scss']
+			    specify: [SOURCES_SASS+'main.scss'],
+			    outputStyle: 'nested'
 			  }
 			}
 		},
