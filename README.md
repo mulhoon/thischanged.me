@@ -1,7 +1,7 @@
 HeadStart
 ========
 
-HeadStart is a simple web/mobile project template. I like to keep things simple.
+HeadStart is a HTML5 web/mobile template and workflow. Start here!
 
 #### Project features
 
@@ -22,36 +22,35 @@ HeadStart is a simple web/mobile project template. I like to keep things simple.
 
 #### What it doesn't have
 
-- A precompiling template engine e.g. handlebars, mustache
+- A HTML precompiler to generate all your html files
 - JS or HTML shorthand e.g. Jade, Coffeescript
 
 
 Installation
 ========
  
-1. Create a project directory, run Terminal and go to the directory
+1. Run Terminal and go to your projects directory
 
-	`$ cd path/to/my/project`
+	`$ cd path/to/my/projects`
 
-2. Clone [this project](https://github.com/mulhoon/HeadStart.git) into it
+2. Clone [this](https://github.com/mulhoon/HeadStart.git) project into it
 
-	`$ git clone https://github.com/mulhoon/HeadStart.git`
+	`$ git clone https://github.com/mulhoon/HeadStart.git MyNewProject`
 
 3. Install grunt (if you don't already have it)
 
 	`$ npm install -g grunt-cli`
 
-4. Install project dependencies (grunt, modules, etc...)
+4. Install project dependencies
+	<br/><sup>Alternatively click on Launch.command to perform the next steps.</sup>
 
 	`$ npm install` (sudo might be required)
 
-5. run Grunt
+5. Run Grunt
 
 	`$ grunt`
 
-6. Get coding
-
-	:)
+	Now you can view the public folder on your local webserver (e.g. [MAMP](http://www.mamp.info/)).<br/> Tip: quit Grunt using Ctrl+C
 
 Guide
 ========
@@ -59,13 +58,13 @@ Guide
 - Keep code separate in their uses. e.g App.view.js only contains script for changing the view, App.api.js only controls script for talking to an API etc..
 - Keep all script settings at the top of your code
 - Use Compass mixins where possible
-- Add plugins and to public/js/vendor/ and reference them in App.tools.js (no need to put them in your head tag) 
+- Add plugins and to public/js/vendor/ and reference them in App.global.js (no need to put them in your head tag) 
 - use `$(".mydiv").render(data);` to populate html with data from an object (as long as the obj keys match the id/class in .mydiv)
 - Don't edit public/js or public/css
 
 Disclaimer
 ========
 
-There are many approaches to building web projects. This is intended as a SIMPLE boilerplate and is a great way to get started if you are new to Grunt and Sass. It can easily be extended for bigger projects.
+There are many approaches to building web projects. This is intended as a *simple* boilerplate and is a great way to get started if you are new to Grunt. It can easily be extended for bigger projects.
 
 If you need help with Git via Terminal [try this](http://shaun.boyblack.co.za/blog/2009/03/14/getting-started-with-git-on-mac-os-x/)
