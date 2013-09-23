@@ -50,7 +50,8 @@ Installation
 
 	`$ grunt`
 
-	Now you can view the public folder on your local webserver (e.g. [MAMP](http://www.mamp.info/)).<br/> Tip: quit Grunt using Ctrl+C
+Now you can view the public folder on your local webserver (e.g. [MAMP](http://www.mamp.info/)).<br/> Tip: quit Grunt using Ctrl+C
+
 
 Guide
 ========
