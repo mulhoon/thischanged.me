@@ -1,7 +1,7 @@
 HeadStart
 ========
 
-HeadStart is a *simple* HTML5 web/mobile template. I always start here.
+HeadStart is a HTML5 web/mobile template and workflow. Start here!
 
 #### Project features
 
@@ -41,7 +41,7 @@ Installation
 
 	`$ npm install -g grunt-cli`
 
-4. Install project dependencies (grunt, modules, etc...)
+4. Install project dependencies<span style="color:green">*</span> (grunt, modules, etc...)
 
 	`$ npm install` (sudo might be required)
 
@@ -49,7 +49,7 @@ Installation
 
 	`$ grunt`
 
-Now you can view the public folder on your local webserver (e.g. [MAMP](http://www.mamp.info/)). Tip: quit Grunt using Ctrl+C
+<span style="color:green">*</span> Alternatively click on Launch.command perform steps 4-5.<br/> Now you can view the public folder on your local webserver (e.g. [MAMP](http://www.mamp.info/)).<br/> Tip: quit Grunt using Ctrl+C
 
 Guide
 ========

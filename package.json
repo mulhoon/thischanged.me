@@ -1,9 +1,11 @@
 {
-  "name": "new-project",
+  "name": "HeadStart",
   "version": "0.0.1",
-  "description": "New Project",
+  "description": "HeadStart",
+  "author": "Nic Mulvaney",
+  "copyright": "2013",
+  "license": "MIT",
   "main": "index.html",
-  "dependencies": {},
   "devDependencies": {
     "grunt": "latest",
     "grunt-contrib-jshint": "latest",
@@ -13,13 +15,11 @@
     "grunt-contrib-compass": "latest",
     "grunt-notify": "~0.2.13"
   },
-  "scripts": {},
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "http://github.com/mulhoon/HeadStart.git"
   },
-  "author": "Nic Mulvaney",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/mulhoon/HeadStart/issues"
   }
 }

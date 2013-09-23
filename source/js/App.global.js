@@ -1,9 +1,3 @@
-/*
-*	
-*	Script written by Nic Mulvaney
-*
-*/
-
 // Setup App namespace
 var App = App || {};
 
