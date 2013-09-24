@@ -28,7 +28,15 @@ HeadStart is a HTML5 web/mobile template and workflow. Start here!
 
 Installation
 ========
- 
+
+#### Instantly
+
+Go get [☀ HeadStart Instant](https://github.com/mulhoon/HeadStart/releases/tag/instant)
+
+
+#### Or quick steps
+
+
 1. Run Terminal and go to your projects directory
 
 	`$ cd path/to/my/projects`
