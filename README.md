@@ -50,7 +50,6 @@ Go get [☀ HeadStart Instant](https://github.com/mulhoon/HeadStart/releases/tag
 	`$ npm install -g grunt-cli`
 
 4. Install project dependencies
-	<br/><sup>Alternatively click on Launch.command to perform the next steps.</sup>
 
 	`$ npm install` (sudo might be required)
 
