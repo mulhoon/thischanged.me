@@ -9,4 +9,7 @@ body{
 	margin: 0 auto;
 	overflow: hidden;
 	max-width: 920px;
+	@media #{$mobile} {
+		
+	}
 }
