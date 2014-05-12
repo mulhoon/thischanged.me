@@ -7,8 +7,8 @@ HeadStart is a HTML5 web/mobile template and workflow. Start here!
 
 - Compiled using [Grunt](http://gruntjs.com/)
 - Perfectly organised Javascript, automatically minimized and concatenated
-- [Sass](http://sass-lang.com/) compiled using [Compass](http://compass-style.org/)
-- Grid layouts available with Compass [Blueprint](http://compass-style.org/reference/blueprint/)
+- [Sass](http://sass-lang.com/)
+- [Autoprefixer](https://github.com/ai/autoprefixer)
 - Automatic notifications when Grunt tasks fail.
 - [LiveReload](http://livereload.com/) of the browser when compiled ([Get the chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en))
 
@@ -65,7 +65,6 @@ Guide
 
 - Keep code separate in their uses. e.g App.view.js only contains script for changing the view, App.api.js only controls script for talking to an API etc..
 - Keep all script settings at the top of your code
-- Use Compass mixins where possible
 - Add plugins and to public/js/vendor/ and reference them in App.global.js (no need to put them in your head tag) 
 - use `$(".mydiv").render(data);` to populate html with data from an object (as long as the obj keys match the id/class in .mydiv)
 - Don't edit public/js or public/css
