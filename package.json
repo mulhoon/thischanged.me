@@ -6,14 +6,15 @@
   "copyright": "2013",
   "license": "MIT",
   "main": "index.html",
-  "devDependencies": {
-    "grunt": "latest",
-    "grunt-contrib-jshint": "latest",
-    "grunt-contrib-concat": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-contrib-watch": "latest",
-    "grunt-contrib-compass": "latest",
-    "grunt-notify": "~0.2.13"
+  "dependencies": {
+    "grunt": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-autoprefixer": "*",
+    "grunt-notify": "*"
   },
   "repository": {
     "type": "git",

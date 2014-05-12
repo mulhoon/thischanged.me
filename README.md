@@ -76,3 +76,7 @@ Disclaimer
 There are many approaches to building web projects. This is intended as a *simple* boilerplate and is a great way to get started if you are new to Grunt. It can easily be extended for bigger projects.
 
 If you need help with Git via Terminal [try this](http://shaun.boyblack.co.za/blog/2009/03/14/getting-started-with-git-on-mac-os-x/)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mulhoon/headstart/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
