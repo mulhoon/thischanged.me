@@ -5,6 +5,7 @@ var App = App || {};
 /* ------------------------------------------------------------ */
 var scripts = [
 	"//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js",
+	"js/vendor/jquery.velocity.min.js"
 	"js/vendor/transparency.min.js"
 ];
 
