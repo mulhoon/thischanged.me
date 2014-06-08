@@ -17,6 +17,7 @@ HeadStart is a HTML5 web/mobile template and workflow. Start here!
 - [jQuery](http://jquery.com/) is a fast, small, and feature-rich JavaScript library.
 - [headjs](http://headjs.com/) loads scripts in parallel but execute in order.
 - [transparency](http://leonidas.github.io/transparency/) is a minimal template engine. It maps JSON objects to DOM elements.
+- [velocity](http://julian.com/research/velocity/) Accelerated JavaScript animation.
 - Touch events ready to go e.g. `.on(event_down, function(){...});`
 
 
