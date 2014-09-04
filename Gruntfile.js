@@ -128,14 +128,9 @@ module.exports = function(grunt) {
 	});
 
 	// Load grunt different tasks
-	grunt.loadNpmTasks('grunt-contrib-sass');
-	grunt.loadNpmTasks('grunt-contrib-concat');
-	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-autoprefixer');
-	grunt.loadNpmTasks('grunt-contrib-jshint');
-	grunt.loadNpmTasks('grunt-notify');
+	require('load-grunt-tasks')(grunt);
 	grunt.task.run('notify_hooks');
+	
 	// Register grunt tasks
 	grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'autoprefixer', 'watch', 'notify:watch']);
 

@@ -2,7 +2,7 @@
 /* ------------------------------------------------------------ */
 
 // Load scripts and initiate the app
-head.js.apply(window, scripts).ready(App.view.init);
+head.js.apply(window, scripts).ready('transparency', App.view.init);
 
 // Disable Console if not available;
 window.console = window.console || { log: function (d) {} };

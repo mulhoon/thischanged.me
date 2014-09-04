@@ -1,6 +1,4 @@
-$mobile: "screen and (max-width: 480px)";
-$tablet: "screen and (max-width: 768px)";
-
-@import "mixins/fonts";
+@import "variables";
+@import "fonts";
 @import "view";
 

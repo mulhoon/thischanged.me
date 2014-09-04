@@ -6,7 +6,7 @@
   "copyright": "2013",
   "license": "MIT",
   "main": "index.html",
-  "dependencies": {
+  "devDependencies": {
     "grunt": "*",
     "grunt-contrib-sass": "*",
     "grunt-contrib-jshint": "*",
@@ -14,6 +14,7 @@
     "grunt-contrib-uglify": "*",
     "grunt-contrib-watch": "*",
     "grunt-autoprefixer": "*",
+    "load-grunt-tasks": "*",
     "grunt-notify": "*"
   },
   "repository": {
