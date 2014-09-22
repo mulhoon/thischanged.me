@@ -2,20 +2,31 @@
 /* ------------------------------------------------------------ */
 
 // Load scripts and initiate the app
-head.js.apply(window, scripts).ready('transparency', App.view.init);
+var ready = function(){
+	head.js.apply(window, scripts).ready('transparency', function(){
+		checkDevice();
+		App.view.init();
+	});
+};
+
+if(!window.cordova){ 
+	ready();
+}else{ // if Cordova wait for device
+    document.addEventListener("deviceready", ready, false);
+}
 
 // Disable Console if not available;
 window.console = window.console || { log: function (d) {} };
 
-
 // Check if mobile device
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-	event_down =  "touchstart";
-    event_move = "touchmove";
-    event_release =  "touchend";
-    mobile = true;
-}else{
-    event_down = "mousedown";
-    event_move = "mousemove";
-    event_release =  "mouseup";
-}
+var checkDevice = function(){
+	if(device.desktop()) {
+	    event_down 		= "mousedown";
+	    event_move 		= "mousemove";
+	    event_release	= "mouseup";
+	}else{
+		event_down 		= "touchstart";
+	    event_move 		= "touchmove";
+	    event_release 	= "touchend";
+	}
+};

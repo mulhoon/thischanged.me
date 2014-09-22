@@ -5,7 +5,7 @@ var App = App || {};
 /* ------------------------------------------------------------ */
 var scripts = [
 	{jquery: 		"//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"},
-	// {transparency: 	"js/vendor/jquery.velocity.min.js"},
+	{device: 		"js/vendor/device.min.js"},
 	{transparency: 	"js/vendor/transparency.min.js"}
 ];
 
@@ -13,11 +13,9 @@ var scripts = [
 // Globals
 /* ------------------------------------------------------------ */
 
-var mobile,
-	event_down, 
+var event_down, 
 	event_move, 
 	event_release, 
-	mobile,
 	transition = "transitionend webkitTransitionEnd",
 	animation = "animationend webkitAnimationEnd";
 
