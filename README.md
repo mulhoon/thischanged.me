@@ -67,7 +67,7 @@ Guide
 - Keep code separate in their uses. e.g App.view.js only contains script for changing the view, App.api.js only controls script for talking to an API etc..
 - Keep all script settings at the top of your code
 - Add plugins and to public/js/vendor/ and reference them in App.global.js (no need to put them in your head tag) 
-- use `$(".mydiv").render(data);` to populate html with data from an object (as long as the obj keys match the id/class in .mydiv)
+- Use `$(".mydiv").render(data);` to populate html with data from an object (as long as the obj keys match the id/class in .mydiv)
 - Don't edit public/js or public/css
 
 Disclaimer
