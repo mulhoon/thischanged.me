@@ -5,3 +5,4 @@
 *.sublime-projectcompletions
 *.js.old
 node_modules
+source/design
