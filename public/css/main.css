@@ -27,21 +27,35 @@ body {
   text-align: center;
   -webkit-font-smoothing: antialiased;
   font-family: 'Futura';
-  font-size: 16px; }
+  font-size: 16px;
+  color: #5a5a52; }
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 12px; } }
 
 h1, h2, h3 {
   margin: 0;
   font-weight: normal; }
+  @media screen and (max-width: 480px) {
+    h1, h2, h3 {
+      padding-left: 20px;
+      padding-right: 20px; } }
 
 a {
   color: inherit; }
 
 h1 {
   font-size: 6em; }
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 2em; } }
 
 h2 {
   font-family: 'Futura Light';
   font-size: 2em; }
+  @media screen and (max-width: 480px) {
+    h2 {
+      font-size: 1.8em; } }
 
 h3 {
   text-align: left; }
@@ -49,9 +63,12 @@ h3 {
 .download {
   margin-top: 40px;
   margin-bottom: 40px;
-  width: 250px;
+  width: 200px;
   -webkit-border-radius: 8px;
           border-radius: 8px; }
+  @media screen and (max-width: 480px) {
+    .download {
+      width: 200px; } }
   .download:hover {
     background: rgba(255, 255, 255, 0.2); }
 
@@ -69,11 +86,15 @@ h3 {
     top: 50%;
     -webkit-transform: translate3d(0, -50%, 0);
             transform: translate3d(0, -50%, 0); }
+    .page .center .logo {
+      width: 80px; }
   .page.head {
     background: url("../img/bg_large.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #FFF; }
+    .page.head h2 br {
+      line-height: 200%; }
   .page.foot {
     background: url("../img/bg_large.jpg");
     background-repeat: no-repeat;
@@ -83,20 +104,55 @@ h3 {
       position: absolute;
       bottom: 20px;
       width: 100%; }
+      .page.foot .footer a {
+        text-decoration: none;
+        margin-left: 10px; }
+      .page.foot .footer .social a {
+        margin-left: 0px; }
     .page.foot h2 {
       font-family: 'Futura';
       font-size: 3em; }
+      @media screen and (max-width: 480px) {
+        .page.foot h2 {
+          font-size: 2em; } }
     .page.foot p {
-      font-size: 2em; }
+      font-size: 2em;
+      padding: 0;
+      margin: 0;
+      padding-left: 20px;
+      padding-right: 20px; }
+      @media screen and (max-width: 480px) {
+        .page.foot p {
+          font-size: 1.5em; } }
   .page .right, .page .left {
     width: 50%;
     height: 100%;
     position: absolute;
     top: 0;
     right: 0; }
+    @media screen and (max-width: 480px) {
+      .page .right, .page .left {
+        position: relative;
+        width: 100%;
+        height: auto;
+        min-height: 50%; } }
+    @media screen and (max-width: 768px) {
+      .page .right, .page .left {
+        position: relative;
+        width: 100%;
+        height: auto;
+        min-height: 50%; } }
   .page .left {
     right: auto;
     left: 0; }
+    @media screen and (max-width: 480px) {
+      .page .left {
+        right: 0;
+        left: auto; } }
+    @media screen and (max-width: 768px) {
+      .page .left {
+        right: 0;
+        left: auto; } }
   .page h3 {
     font-size: 2.5em;
     position: absolute;
@@ -105,6 +161,13 @@ h3 {
     top: 50%;
     -webkit-transform: translate3d(-50%, -50%, 0);
             transform: translate3d(-50%, -50%, 0); }
+    @media screen and (max-width: 480px) {
+      .page h3 {
+        font-size: 2em;
+        width: 70%;
+        text-align: center;
+        -webkit-transform: translate3d(-50%, -60%, 0);
+                transform: translate3d(-50%, -60%, 0); } }
   .page .phone {
     background: url("../img/01.jpg"), url("../img/iphone.png");
     background-size: auto 75%, auto 100%;
@@ -118,6 +181,14 @@ h3 {
     height: 80%;
     overflow: hidden;
     position: absolute; }
+    @media screen and (max-width: 480px) {
+      .page .phone {
+        height: 165%;
+        top: 65%; } }
+    @media screen and (max-width: 768px) {
+      .page .phone {
+        height: 165%;
+        top: 65%; } }
   .page.p2 .phone {
     background: url("../img/02.jpg"), url("../img/iphone.png");
     background-size: auto 75%, auto 100%;
@@ -128,3 +199,18 @@ h3 {
     background-size: auto 75%, auto 100%;
     background-position: center;
     background-repeat: no-repeat; }
+
+.social a img {
+  width: 30px; }
+.social a:first-child {
+  margin-right: 10px; }
+.social a:hover {
+  opacity: 0.8; }
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none; }
